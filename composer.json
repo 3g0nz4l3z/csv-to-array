@@ -1,0 +1,21 @@
+{
+    "name": "3g0nz4l3z/csv-to-array",
+    "description": "read an csv file and turn it into an array",
+    "type": "library",
+    "license": "GNU-GPL",
+    "authors": [
+        {
+            "name": "egonzalez",
+            "email": "egonzalez@ceibal.edu.uy"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+	"php":">=5.6.30"
+	},
+    "autoload": {
+        "psr-0": {
+            "CSVToArray": "src/"
+        }
+}
+}
